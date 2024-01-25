@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- link daisy Ui link -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- create counter -->
+    <h1 class="text-3xl text-center text-red-800">Counter</h1>
+    <div class="counter text-center">
+      <span class="counter text-6xl">0</span>
+    </div>
+    <div class="mb-10 text-center">
+      <button class="increment btn">Increment</button>
+      <button class="decrement btn">Decrement</button>
+      <button onclick="reset()" class="reset btn">Reset</button>
+    </div>
+
+    <script src="digitalCount.js"></script>
+  </body>
+</html>
